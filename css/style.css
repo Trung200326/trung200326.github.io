@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f3f3f3; /* Màu nền nhẹ nhàng */
+    color: #333; /* Màu chữ chính */
+  }
+
+  .w3-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .w3-card:hover {
+    transform: scale(1.02);
+  }
+
+  .w3-teal {
+    color: #ffffff; /* Màu chữ trắng */
+    background-color: #2ecc71; /* Màu xanh lá cây */
+  }
+
+  .w3-container {
+    padding: 20px;
+  }
+
+  img {
+      
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    
+    transition: transform 0.3s ease-in-out;
+    border-radius: 50%;
+  }
+
+  img:hover {
+    transform: scale(1.1);
+  }
+
+  footer {
+    padding: 20px;
+    background-color: #2ecc71; /* Màu xanh lá cây */
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .fa {
+    margin: 0 8px;
+    font-size: 24px;
+    transition: opacity 0.3s;
+  }
+
+  .fa:hover {
+    opacity: 0.8;
+  }
+  .w3-display-container {
+    width: 100%; /* Đặt kích thước ảnh theo ý muốn (ví dụ: 80%) */
+    padding: 0 100px;
+  }
+
+  #name {
+      text-align: center;
+
+  }
+  
